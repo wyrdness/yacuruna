@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/yacuruna",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "yacuruna",
+    "name": "Yacuruna: The Amazonian Water Spirit",
+    "aliases": [],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "of Yacuruna",
+    "tags": [
+      "of-the-tukano-indians.-university-of-chicago-press",
+      "1971."
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The **Yacuruna** (also spelled Yakuruna, Yacuruna, or Yakumama) are powerful water spirits in the mythology of various Indigenous peoples of the Amazon basin, particularly the Shipibo-Conibo, Cocama, and other riverine cultures.",
+      "full": "The **Yacuruna** (also spelled Yakuruna, Yacuruna, or Yakumama) are powerful water spirits in the mythology of various Indigenous peoples of the Amazon basin, particularly the Shipibo-Conibo, Cocama, and other riverine cultures. The name derives from Quechua: \\\"yacu\\\" (water) and \\\"runa\\\" (people), literally meaning \\\"water people.\\\" These enigmatic beings are believed to inhabit vast underwater cities and palaces beneath the rivers and lakes of the Amazon, serving as guardians of aquatic realms and mediators between the human world and the spirit world of water."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "of Yacuruna",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
