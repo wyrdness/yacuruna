@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/yacuruna",
     "maintainers": [
       {
@@ -16,72 +16,120 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "yacuruna",
-    "name": "Yacuruna: The Amazonian Water Spirit",
-    "aliases": [],
+    "name": "Yacuruna",
+    "aliases": [
+      { "name": "Yakuruna", "language": "Quechua", "region": "Amazon basin", "meaning": "Water people; from yaku (water) + runa (man/people)" },
+      { "name": "Yaku Runa", "language": "Quechua", "region": "Amazon basin", "meaning": "Literal Quechua form: water people" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "of Yacuruna",
+    "subcategory": "Amazonian water spirit",
     "tags": [
-      "of-the-tukano-indians.-university-of-chicago-press",
-      "1971."
+      "amazonian-indigenous",
+      "water-spirit",
+      "shapeshifter",
+      "south-america",
+      "quechua",
+      "shipibo-conibo",
+      "shamanic",
+      "underwater-city"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Yacuruna** (also spelled Yakuruna, Yacuruna, or Yakumama) are powerful water spirits in the mythology of various Indigenous peoples of the Amazon basin, particularly the Shipibo-Conibo, Cocama, and other riverine cultures.",
-      "full": "The **Yacuruna** (also spelled Yakuruna, Yacuruna, or Yakumama) are powerful water spirits in the mythology of various Indigenous peoples of the Amazon basin, particularly the Shipibo-Conibo, Cocama, and other riverine cultures. The name derives from Quechua: \\\"yacu\\\" (water) and \\\"runa\\\" (people), literally meaning \\\"water people.\\\" These enigmatic beings are believed to inhabit vast underwater cities and palaces beneath the rivers and lakes of the Amazon, serving as guardians of aquatic realms and mediators between the human world and the spirit world of water."
+      "summary": "Powerful water spirits in the mythology of various Indigenous peoples of the Amazon basin, particularly Quechua-speaking and riverine cultures. The Yacuruna inhabit underwater cities beneath Amazonian rivers and lakes, riding black crocodiles by night and shapeshifting into Amazon river dolphins to interact with humans.",
+      "full": "The Yacuruna (Quechua: yaku, water + runa, people) are supernatural water beings central to the cosmologies of Amazonian Indigenous peoples including Quechua-speaking groups and riverine cultures such as the Cocama. They are described as hairy, man-like creatures with backward-facing heads and deformed feet who inhabit vast underwater cities beneath Amazonian rivers and lakes. These submerged palaces are described in oral tradition as constructed of crystal, with walls of fish scales and pearl, furnishings of feathers, hammocks of snakes, and mosquito netting of butterfly wings. The Yacuruna are nocturnal: they traverse the rainforest at night riding black crocodiles, resting in the river and lake bottoms during the day. They are capable of shapeshifting, most commonly into the form of the Amazon river dolphin (boto), and are said to use aphrodisiacs to abduct victims — particularly menstruating women — who are then transformed irreversibly: their eyes change first, followed by their heads and feet turning backward (preventing them from finding their way home). Shamans (ayahuasceros) maintain a particular relationship with the Yacuruna, summoning them as familiars to receive healing knowledge. The figure of the Yacuruna is distinct from, but overlaps with, the broader Amazonian dolphin-seducer complex (the boto encantado of Brazilian folklore)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Quechua language, Amazon basin; the term is used among Quechua-speaking peoples of Peru and related riverine cultures",
+      "meaning": "Yaku (water) + runa (man, person, people) = 'water people' or 'people of the water'",
+      "first_use": "Pre-contact oral tradition; first recorded in writing by ethnographers and missionaries in the colonial and post-colonial period"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "of Yacuruna",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Water spirit / underwater being",
+      "subtype": "Shapeshifter (dolphin / human)",
+      "variant": "Amazonian (Quechua / Cocama / riverine cultures)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "boto-encantado", "name": "Boto Encantado", "relationship": "similar", "description": "Brazilian Amazon dolphin-shapeshifter folklore; the boto (river dolphin) transforms into a handsome man to seduce women, closely related conceptually to Yacuruna abduction narratives" },
+      { "id": "yakumama", "name": "Yakumama", "relationship": "related", "description": "Great serpent mother of Amazonian waters in Quechua tradition; another powerful water being from the same mythological complex" },
+      { "id": "mermaid", "name": "Mermaid / Sirena", "relationship": "similar", "description": "Transformed victims of Yacuruna abduction are sometimes described as mermaid-like beings; structural parallel to European mermaid tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Backward-facing head", "description": "The Yacuruna's head is oriented backward relative to the body; the same transformation is inflicted on abducted humans", "frequency": "always" },
+        { "feature": "Deformed or backward feet", "description": "Feet point in the wrong direction, preventing victims from navigating home after transformation", "frequency": "always" },
+        { "feature": "Hairy body", "description": "Described as hairy and man-like in appearance before shapeshifting", "frequency": "common" },
+        { "feature": "Shapeshifting into Amazon river dolphin", "description": "Most commonly take the form of the boto (Amazon river dolphin, Inia geoffrensis) to interact with or approach humans", "frequency": "common" },
+        { "feature": "Shapeshifting into attractive human form", "description": "Can transform into an attractive human to lure victims, particularly during nocturnal encounters", "frequency": "common" }
+      ],
+      "morphology": "Fundamentally humanoid but marked by inverted anatomical orientation (backward head, backward feet). In dolphin form, they are indistinguishable from natural botos. In human seducer form, they appear as attractive persons. Their underwater city environment suggests an inverted analog of the human world above the waterline."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Transform between hairy humanoid form, Amazon river dolphin form, and attractive human form", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Riding crocodiles", "description": "Travel across the rainforest at night mounted on black crocodiles", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Abduction via aphrodisiacs", "description": "Use supernatural aphrodisiacs to draw victims — particularly menstruating women — to the water's edge for abduction", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Transformation of victims", "description": "Captives undergo irreversible metamorphosis: eyes change first, then head and feet turn backward, preventing return to human society", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Control of aquatic animals", "description": "Command fish, crocodiles, and other aquatic creatures", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Transmission of healing knowledge", "description": "Shamans can summon Yacuruna as familiars to receive medical and spiritual knowledge through ayahuasca-mediated encounters", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["Amazonian rivers", "lakes and lagoons", "river bottoms and lake floors (underwater cities)", "rainforest edges adjacent to water"],
+      "diet": "Not specified in available sources",
+      "patterns": [
+        "Rest in river and lake bottoms during daylight hours",
+        "Travel across the rainforest at night mounted on black crocodiles",
+        "Approach humans in dolphin or attractive human form",
+        "Particularly target menstruating women through aphrodisiac attraction",
+        "Shamans can establish controlled relationships with Yacuruna for healing purposes"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Yacuruna tradition is documented across the Amazonian basin, particularly among Quechua-speaking peoples of Peru and adjacent riverine cultures (Cocama, and others). The belief complex extends across the broader Amazonian cultural area where the boto (Amazon river dolphin) is ecologically present.",
+      "continents": ["South America"],
+      "countries": ["Peru", "Brazil", "Colombia", "Ecuador", "Bolivia"],
+      "regions": [
+        "Amazon basin",
+        "Upper Amazon (Peru)",
+        "Loreto region, Peru",
+        "Ucayali region, Peru"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Pre-Columbian Amazonian oral tradition; recorded by ethnographers from the colonial period onward"
+      },
+      "peak_activity_periods": []
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Yacuruna is rooted in the cosmological systems of Amazonian Indigenous peoples, particularly those of Quechua-speaking and riverine communities in Peru. The tradition is embedded in a broader Amazonian spiritual ecology in which the river is understood as a parallel world inhabited by powerful beings who can interact with — and intrude into — the human domain. The Amazon river dolphin (boto/bufeo colorado) plays a central ecological and cultural role in this complex.",
+      "earliest_accounts": "Pre-Columbian oral tradition; first ethnographic documentation occurred during the colonial and post-colonial period by Spanish missionaries and later by anthropologists.",
+      "folklore_connections": "Closely related to the Brazilian boto encantado tradition; connected to the broader pan-Amazonian water-master complex. The inversion motif (backward head, backward feet) appears across Amazonian cultures as a marker of beings belonging to the 'other side' of the cosmic boundary."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "The Yacuruna continues to be an active figure in Amazonian Indigenous cosmology and shamanic practice. The legend is increasingly documented by anthropologists and ethnobotanists studying Amazonian shamanism and the cultural ecology of the boto."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +140,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,16 +148,45 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Cultural ecology of the boto",
+        "description": "The Yacuruna and related dolphin-shapeshifter traditions may reflect the ecological presence and unusual behavior of the Amazon river dolphin (Inia geoffrensis), which surfaces near settlements, enters flooded forest, and was historically mysterious to river peoples. The dolphin's humanoid naval anatomy and nocturnal behavior near human habitation could underpin the seducer-shapeshifter narrative.",
+        "proponents": ["Ethnobiologists and Amazonian ecologists"],
+        "evidence_cited": ["Amazon river dolphin is ecologically co-distributed with Yacuruna belief area", "Boto's humanoid characteristics noted by Indigenous and colonial observers", "Nocturnal surfacing near human settlements"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Social regulation of river access",
+        "description": "The Yacuruna tradition, particularly the targeting of menstruating women, functions to regulate who approaches the river and when, encoding pragmatic safety rules (women alone at river at night) in supernatural terms.",
+        "proponents": ["Anthropologists of Amazonian cosmology"],
+        "evidence_cited": ["Belief restrictions map onto actual danger zones (river margins at night, flood season)", "Menstruation taboo parallels other cultural restrictions on women's river access"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Quechua-speaking Amazonian peoples (Peru)",
+        "Cocama people (Upper Amazon, Peru/Colombia/Brazil)",
+        "Shipibo-Conibo people (Ucayali, Peru)"
+      ],
+      "stories": [
+        "The abduction and transformation narrative: a woman (often menstruating) is lured to the river, taken by a Yacuruna in attractive human form, and transformed with backward-facing head and feet, becoming a healer in the underwater world",
+        "The shamanic familiar: a skilled ayahuascero summons a Yacuruna to receive healing knowledge; the encounter requires spiritual protection to avoid being permanently drawn into the underwater world"
+      ],
+      "beliefs": "The Yacuruna represent the powerful and dangerous spirit world of the river — a parallel society beneath the water that mirrors human settlement above. Encounters are almost always dangerous for ordinary people but can be harnessed by trained shamans. The transformation inflicted on abductees (backward orientation) is understood as a permanent reorientation toward the underwater world, making return to human society impossible without shamanic intervention."
+    },
+    "indigenous": {
+      "cultures": ["Quechua-speaking Amazonian peoples", "Cocama", "Shipibo-Conibo", "Yagua", "Tikuna"],
+      "significance": "The Yacuruna tradition is a living component of Amazonian Indigenous cosmology and shamanic practice, not merely historical folklore. It is integrated into understandings of illness (caused by Yacuruna), healing (transmitted by Yacuruna familiars), and the spiritual ecology of the river.",
+      "sensitivity_note": "The Yacuruna tradition is a sacred element of living Indigenous cosmological systems. Ethnographic reporting should be conducted with the consent and involvement of the relevant communities.",
+      "respect_guidelines": "Consult Amazonian Indigenous cultural authorities before publishing or commercializing accounts. Distinguish between what communities are willing to share publicly and what is sacred or restricted knowledge."
     },
     "popular_culture": {
       "literature": [],
@@ -117,10 +195,20 @@
       "other": []
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The Yacuruna is studied within ethnographies of Amazonian shamanism, particularly those examining ayahuasca cosmology and the role of plant-medicine encounters in structuring relationships with supernatural beings. Ethnobiologists also study the Yacuruna in relation to the boto (Amazon river dolphin)."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-yacuruna",
+      "type": "website",
+      "title": "Yacuruna",
+      "url": "https://en.wikipedia.org/wiki/Yacuruna",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
